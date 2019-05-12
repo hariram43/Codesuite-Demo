@@ -10,7 +10,7 @@ COPY requirements.txt /
 
 # Install requirements
 RUN pip install -r /requirements.txt
-RUN sonar:sonar -Dsonar.login=b10217516796988ae8aea42ee02c7010b4d25620 -Dsonar.host.url=http://18.224.216.39:9000
+#RUN sonar:sonar -Dsonar.login=b10217516796988ae8aea42ee02c7010b4d25620 -Dsonar.host.url=http://18.224.216.39:9000
 # Set default AWS region
 ENV AWS_DEFAULT_REGION us-west-2
 
